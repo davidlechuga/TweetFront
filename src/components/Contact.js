@@ -29,6 +29,7 @@ function Contact () {
       </div>
       <button type='submit' className='btn btn-primary'>Enviar</button>
     </form>
+
   )
 }
 

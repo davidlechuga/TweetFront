@@ -7,6 +7,7 @@ import {
 
 import Informes from './views/informes'
 import Index from './views/index'
+
 import './assets/Navbar/Navbar.css'
 
 
