@@ -1,8 +1,10 @@
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect} from 'react'
 
+import Navbar from '../components/Navbar'
 import TwitCardList from '../components/TwitCardList'
 import Botton from '../components/Botton'
+import StatList from '../components/StatList'
 
 import api from '../lib/api'
 
@@ -32,15 +34,30 @@ function Index() {
   }, [state])
 
   return (
-
-
+    
     <main>
  
       {
         !state.hasError ? (
+          <React.Fragment>
+          <Navbar
+
+          />
+
           <TwitCardList
             twits={state.twits}
           />
+
+           
+           
+          
+          <StatList
+          twits = {state.twits}
+        
+          />  
+          </React.Fragment>
+         
+   
         ) : (
           <div>
             <h1 className='title is-error'>

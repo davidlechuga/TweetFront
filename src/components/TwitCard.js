@@ -1,6 +1,6 @@
 
 import * as React from "react";
-import { Chart } from "react-google-charts";
+// import { Chart } from "react-google-charts";
 
 
 function TwitCard (props) {
@@ -29,31 +29,10 @@ function TwitCard (props) {
         </div>
     </div>
 
-    
-    
-      <div className={"my-pretty-chart-container"}>
-        <Chart
-          chartType="ColumnChart"
-          data= {[["Age", "Weight"], [5, 7], [8, 12]]}
-          options={{
-            title: 'Analisis de Tweets del Candidato ',
-            chartArea: { width: '30%' },
-            hAxis: {
-              title: 'Tweets que hablan Mal del Candidato',
-              minValue: 0,
-            },
-            vAxis: {
-              title: ' Frecuencia ',
-            },
-          }}
-          width="100%"
-          height="400px"
-          legendToggle
-        />
-      </div>
     </div>
 
   )
+
 }
 
 export default TwitCard

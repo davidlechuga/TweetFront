@@ -1,0 +1,26 @@
+.navbar {
+    background: rgb(46, 66, 94);
+    transition: all 1.5s ease;   
+  
+}
+
+.twitterstatsimg{
+    min-width: 80px;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.secciones {
+    margin: 50px;
+}
+
+
+@media  (min-width:768px) {
+
+    .navbar {
+
+        background: #232D3B;
+        transition: all 1.5s ease;
+
+    }
+}
