@@ -1,0 +1,103 @@
+
+.secciones01 {
+    width: 100%;
+}
+
+.navbar-collapse{
+    display: flex !important;
+}
+
+.navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.backseccion{
+    background: url('../img/bg-blue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0px;
+    margin-top: -6px;
+    height: 243px;
+    width: 103%;
+
+}
+
+/*  CARTS DE LOS PROCESOS*/
+
+.card {
+    display: inline-table;
+    margin-top: 0px;
+    background-color: #ddd;
+    height: 472px;
+
+}
+
+.card-img-top {
+    height: 100px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.secciones {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+
+.infoprin {
+    align-self: center;
+    text-align: center;
+    margin-top: -213px;
+}
+
+
+
+
+
+
+@media (min-width: 768px)   {
+
+/*  NAVBAR STYLES */
+.navbar-collapse{
+    display: flex;
+}
+
+.navbar-brand {
+    text-align: start;
+}
+
+.backseccion{
+    background: url('../img/bg-blue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0px;
+    margin-top: -6px;
+    height: 243px;
+    width: 102%;
+
+}
+
+/*  CARTS DE LOS PROCESOS*/
+
+.card {
+    display: inline-flex;
+    margin-top: 0px;
+    background-color: #ddd;
+    height: 450px;
+}
+
+.secciones {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+
+}

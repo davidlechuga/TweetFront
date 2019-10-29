@@ -10,7 +10,7 @@ function NavbarBrand ({to}){
       className='navbar-brand'
       to={to}
     >
-      <img alt="twitterstats" className="twitterstatsimg" src={twitterstats}></img>
+      <img alt="twitterstats" className="twitterstatsimg"  src={twitterstats}></img>
 
     </Link>
   )

@@ -7,8 +7,12 @@ import {
 
 import Informes from './views/informes'
 import Index from './views/index'
+import landing from './views/landing'
 
 import './assets/Navbar/Navbar.css'
+import './assets/Secciones/Secciones.css'
+import './assets/Footer/Footer.css'
+
 
 
 function App() {
@@ -23,6 +27,16 @@ function App() {
         <Route
           path ='/informes' 
           component={Informes}
+          exact
+        />
+        <Route
+          path ='/resumenes' 
+          component={landing}
+          exact
+        />
+        <Route
+          path ='/landing' 
+          component={landing}
           exact
         />
 

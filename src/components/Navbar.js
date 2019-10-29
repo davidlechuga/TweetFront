@@ -18,12 +18,16 @@ function Navbar (props){
                 <NavbarNav>
                     <NavbarItem>
                         <NavbarLink
-                            to="/Resúmenes"
+                            to="/resumenes"
                             text= "Resúmenes"
                         />
                         <NavbarLink
                             to="/informes"
                             text= "Informes"
+                        />
+                        <NavbarLink
+                            to="/landing"
+                            text= "Home"
                         />
                         
                     </NavbarItem>
