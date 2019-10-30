@@ -2,9 +2,9 @@ import React from 'react'
 // import { Link } from 'react-router-dom'
 
 
-import secciones01 from '../assets/img/secciones01.jpg'
-import secciones02 from '../assets/img/secciones02.jpg'
-import secciones03 from '../assets/img/secciones03.jpg'
+import seccionestwit from '../assets/img/apiTwit.png'
+import seccionesibm from '../assets/img/apiibm.png'
+import seccionesgoogle from '../assets/img/apiGoogle.png'
 
 
 
@@ -23,35 +23,23 @@ function Slide ({to}){
                 <div className="carousel-inner" role="listbox">
                     <div className="carousel-item active">
                         <div className="view">
-                            <img className="d-block w-100" src={secciones02}
+                            <img className="d-block w-100 wimg" src={seccionestwit}
                                 alt="First slide" />
                             <div className="mask rgba-black-light"></div>
                         </div>
 
-                        <div className="carousel-caption">
-                            <h3 className="h3-responsive">Light mask</h3>
-                            <p>First text</p>
-                        </div>
                     </div>
                     <div className="carousel-item">
                         <div className="view">
-                            <img className="d-block w-100" src={secciones01} alt="Second slide" />
+                            <img className="d-block w-100 wimg" src={seccionesibm} alt="Second slide" />
                         <div className="mask rgba-black-strong"></div>
-                    </div>
-                    <div className="carousel-caption">
-                        <h3 className="h3-responsive">Strong mask</h3>
-                        <p>Secondary text</p>
                     </div>
                 </div>
 
                 <div className="carousel-item">
                     <div className="view">
-                        <img className="d-block w-100" src={secciones03} alt="Third slide" />
+                        <img className="d-block w-100 wimg" src={seccionesgoogle} alt="Third slide" />
                         <div className="mask rgba-black-slight"></div>
-                    </div>
-                    <div className="carousel-caption">
-                        <h3 className="h3-responsive">Slight mask</h3>
-                        <p>Third text</p>
                     </div>
                     </div>
                 </div>

@@ -1,0 +1,13 @@
+.wimg {
+    height: 250px;
+}
+
+
+
+@media (min-width: 768px)   { 
+
+    .wimg {
+        height: 450px;
+    }
+
+}

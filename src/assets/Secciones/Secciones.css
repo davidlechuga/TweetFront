@@ -1,3 +1,13 @@
+/*  FUENTES DE LA PAGINA   */
+@font-face   {
+    font-family: 'RobotoBlack';
+    src: url('../Fonts/Roboto-Black.ttf');
+
+    font-family: 'RobotoMedium';
+    src: url('../Fonts/Roboto-Medium.ttf');
+}
+
+
 
 .secciones01 {
     width: 100%;
@@ -13,16 +23,32 @@
     text-align: center;
 }
 
+/* SUBTITULO 1  */
+
+
 .backseccion{
     background: url('../img/bg-blue.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 0px;
     margin-top: -6px;
-    height: 243px;
+    height: 316px;
     width: 103%;
 
 }
+
+
+.infoprin {
+    align-self: center;
+    text-align: center;
+    margin-top: -292px;
+    font-family: 'RobotoBlack';
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+    font-size: 30px;
+    letter-spacing: 0px;
+}
+
+
 
 /*  CARTS DE LOS PROCESOS*/
 
@@ -40,18 +66,15 @@
 
 .card-body{
     text-align: center;
+    font-family: 'RobotoBlack';
+    font-size: 17px;
+
+
 }
 
 .secciones {
     color: #fff !important;
     font-weight: bold;
-}
-
-
-.infoprin {
-    align-self: center;
-    text-align: center;
-    margin-top: -213px;
 }
 
 
@@ -70,16 +93,29 @@
     text-align: start;
 }
 
+/* SUBTITULO 1  */
+
 .backseccion{
     background: url('../img/bg-blue.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 0px;
     margin-top: -6px;
-    height: 243px;
+    height: 315px;
     width: 102%;
 
 }
+
+.infoprin {
+    align-self: center;
+    text-align: center;
+    margin-top: -290px;
+    font-family: 'RobotoBlack';
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
 
 /*  CARTS DE LOS PROCESOS*/
 
@@ -98,6 +134,8 @@
 .card-img-top {
     height: 200px;
 }
+
+
 
 
 }

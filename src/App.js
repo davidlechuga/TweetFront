@@ -11,6 +11,7 @@ import landing from './views/landing'
 
 import './assets/Navbar/Navbar.css'
 import './assets/Secciones/Secciones.css'
+import'./assets/Slide/slide.css'
 import './assets/Footer/Footer.css'
 
 

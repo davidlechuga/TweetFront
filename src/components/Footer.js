@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-import secciones01 from '../assets/img/secciones01.jpg'
+import seccionestwitterstats from '../assets/img/twitterstats.png'
 
 function Footer ({to}) {
 
@@ -15,7 +15,7 @@ function Footer ({to}) {
                 <div className="col-6">
                     <Link>
                         <img 
-                            src={secciones01}  
+                            src={seccionestwitterstats}  
                             to= {to}
                             className='img-foo'
                             alt='jsd'
@@ -23,7 +23,10 @@ function Footer ({to}) {
                     </Link>
                 </div>
                 <div className="col-6">
-                    <h1>jkdjdsjkdsjsd</h1>
+                     <br></br>
+                    <h1 className="h1foo"> Telefonos: (55) 80039816 </h1> <br></br>
+                    <h1 className="h1foo"> Ubicación: Sta Cruz Acatlan 53150 Naucalpan de Juárez, Méx.</h1> <br></br>
+                    <h1 className="h1foo"> Legal: Aviso de Privacidad</h1> <br></br>
                 </div>
             </div>
 

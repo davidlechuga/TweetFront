@@ -24,7 +24,7 @@ function Secciones ({to}){
             <div className="container infoprin">
                 <div className="row">
                     <div className="col">
-                        <p> EXTRAE DATOS DE TWITER, <br></br></p>
+                        <p> EXTRAE   DATOS    DE    TWITER, <br></br></p>
                         <p> COMIENZA A ANALIZAR CON WATSON DISCOVERY <br></br></p>
                         <p> Y <br></br></p>
                         <p> GRAFICA SU INFORMACION. <br></br></p>

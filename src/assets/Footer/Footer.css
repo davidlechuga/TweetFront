@@ -1,9 +1,28 @@
 .rowfooter{
-    background: aquamarine;
-    margin: 0px;
+    background: rgb(46, 66, 94);
+    transition: all 1.5s ease;   
 }
 
 .img-foo {
-    width: 63%;
+    width: 30%;
     margin: 50px;
+}
+
+
+.h1foo{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+@media  (min-width:768px) {
+
+
+
+    .rowfooter{
+        background: #232D3B;
+        transition: all 1.5s ease;
+    }
+    
 }
