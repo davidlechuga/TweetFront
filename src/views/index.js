@@ -3,7 +3,7 @@ import React, { useState, useEffect} from 'react'
 
 import Navbar from '../components/Navbar'
 import TwitCardList from '../components/TwitCardList'
-import StatList from '../components/StatList'
+// import StatList from '../components/StatList'
 import Botton from '../components/Botton'
 
 
@@ -52,10 +52,9 @@ function Index() {
            
            
           
-          <StatList
+          {/* <StatList
           twits = {state.twits}
-        
-          />  
+          />   */}
           </React.Fragment>
          
    

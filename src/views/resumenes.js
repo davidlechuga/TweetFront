@@ -4,7 +4,7 @@ import React, { useState, useEffect} from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ButtonResumen from '../components/ButtonResumen'
-import StatList from '../components/StatList'
+// import StatList from '../components/StatList'
 import ResumenCard from '../components/ResumenCard'
 import StatCard from '../components/StatCard'
 

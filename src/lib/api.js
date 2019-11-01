@@ -1,7 +1,7 @@
 export default {
     async getTwits() {
       console.log('get')
-      const response = await fetch('http://localhost:3003/search/Coca-Cola')
+      const response = await fetch('http://localhost:3003/search/marihuana')
       if (!response.ok) throw new Error('Ocurrió un error al obtener los posts')
       const jsonBody = await response.json()
   

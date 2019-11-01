@@ -21,9 +21,6 @@ function StatCard (props) {
   console.log(emotion);
   
 
-
-
-
   for (let i = 0; i < emotion.length; i++) {
      emotionarray1.push(emotion[i].emotion.sadness)
      emotionarray2.push(emotion[i].emotion.joy)
