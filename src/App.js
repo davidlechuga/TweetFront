@@ -8,6 +8,8 @@ import {
 import Informes from './views/informes'
 import Index from './views/index'
 import landing from './views/landing'
+import Resumenes from './views/resumenes'
+
 
 import './assets/Navbar/Navbar.css'
 import './assets/Secciones/Secciones.css'
@@ -32,7 +34,7 @@ function App() {
         />
         <Route
           path ='/resumenes' 
-          component={landing}
+          component={Resumenes}
           exact
         />
         <Route

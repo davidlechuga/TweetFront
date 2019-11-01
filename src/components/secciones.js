@@ -25,7 +25,7 @@ function Secciones ({to}){
                 <div className="row">
                     <div className="col">
                         <p> EXTRAE   DATOS    DE    TWITER, <br></br></p>
-                        <p> COMIENZA A ANALIZAR CON WATSON DISCOVERY <br></br></p>
+                        <p> COMIENZA A ANALIZAR CON NATURAL LANGUAGE UNDERSTANDING <br></br></p>
                         <p> Y <br></br></p>
                         <p> GRAFICA SU INFORMACION. <br></br></p>
                     </div>
@@ -47,7 +47,7 @@ function Secciones ({to}){
                     <img src={secciones03} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title"> ANALIZAR </h5>
-                        <p className="card-text">Este proceso consiste en utilizar la API de IBM Discovery para interpretar el texto extraido. </p>
+                        <p className="card-text">Este proceso consiste en utilizar la API de IBM NLU para interpretar el texto extraido. </p>
                         <Link to={to} className="btn btn-primary">Go somewhere </Link>
                     </div>
                 </div>

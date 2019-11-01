@@ -10,7 +10,7 @@ function Footer ({to}) {
 
     return(
 
-        <div className="container-fluid p-0">
+        <div className="container-fluid ">
             <div className="row rowfooter">
                 <div className="col-6">
                     <Link>

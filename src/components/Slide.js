@@ -3,7 +3,7 @@ import React from 'react'
 
 
 import seccionestwit from '../assets/img/apiTwit.png'
-import seccionesibm from '../assets/img/apiibm.png'
+import seccionesibm from '../assets/img/NLU.png'
 import seccionesgoogle from '../assets/img/apiGoogle.png'
 
 

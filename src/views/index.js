@@ -3,8 +3,9 @@ import React, { useState, useEffect} from 'react'
 
 import Navbar from '../components/Navbar'
 import TwitCardList from '../components/TwitCardList'
-import Botton from '../components/Botton'
 import StatList from '../components/StatList'
+import Botton from '../components/Botton'
+
 
 import api from '../lib/api'
 
