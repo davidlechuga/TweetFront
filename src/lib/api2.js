@@ -1,7 +1,7 @@
 export default {
     async getkeywordsibm() {
       console.log('get')
-      const response = await fetch('http://localhost:3003/resumenes')
+      const response = await fetch('https://twiitgov.mybluemix.net/resumenes')
       if (!response.ok) throw new Error('Ocurrió un error al obtener los posts')
       const jsonBody = await response.json()
   
