@@ -47,7 +47,7 @@ function StatCard (props) {
           chartType="ColumnChart"
           data={[
             ['City', 'SADNESS', 'JOY'],
-            ['SADNESS',  emotionarray1[0] , emotionarray2[0]],
+            ['SADNESS / JOY ' ,  emotionarray1[0] , emotionarray2[0]],
             
           ]}
           options={{
