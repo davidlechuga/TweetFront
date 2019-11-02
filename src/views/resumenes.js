@@ -24,7 +24,7 @@ function Resumenes() {
 
     useEffect(() => {
 
-      fetch ('http://localhost:3003/resumenes')
+      fetch ('https://twiitgov.mybluemix.net/resumenes')
 
 
 
