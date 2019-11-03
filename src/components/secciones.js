@@ -4,10 +4,6 @@ import { Link } from 'react-router-dom'
 import secciones01 from '../assets/img/secciones01.jpg'
 import secciones02 from '../assets/img/secciones02.jpg'
 import secciones03 from '../assets/img/secciones03.jpg'
-import secciones04 from '../assets/img/secciones04.jpg'
-
-
-
 
 
 function Secciones ({to}){
@@ -53,7 +49,7 @@ function Secciones ({to}){
                 </div>
 
                 <div className="card col-4 p-0">
-                    <img src={secciones04} className="card-img-top" alt="..." />
+                    <img src={secciones02} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title"> GRAFICAR </h5>
                         <p className="card-text">Este proceso consiste en graficar el numero de apariciones de una palabra clave.</p>
