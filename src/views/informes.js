@@ -40,14 +40,7 @@ function informes () {
            
             }
 
-
-
-
-
-
           </main>
-
-
     )
         }
 

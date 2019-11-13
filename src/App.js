@@ -15,10 +15,12 @@ import './assets/Navbar/Navbar.css'
 import './assets/Secciones/Secciones.css'
 import'./assets/Slide/slide.css'
 import './assets/Footer/Footer.css'
+import './assets/TwitCardList/twitcardlist.css'
 
 
+function App(props) {
 
-function App() {
+
   return (
     <Router>
       <Switch>

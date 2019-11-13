@@ -10,7 +10,7 @@ import {
 
 // 19.485017, -99.246623
 
-const Map = (props ) => {
+function  Map  (props ) {
     
     return(
         <GoogleMap
@@ -27,9 +27,6 @@ const Map = (props ) => {
         
     )
 }
-
-
-
 
 export default withScriptjs(
     withGoogleMap(Map)

@@ -3,8 +3,9 @@ import React, { useState, useEffect} from 'react'
 
 import Navbar from '../components/Navbar'
 import TwitCardList from '../components/TwitCardList'
-// import StatList from '../components/StatList'
 import Botton from '../components/Botton'
+import Footer from '../components/Footer'
+
 
 
 import api from '../lib/api'
@@ -30,9 +31,9 @@ function Index() {
         }
       }
     }
-
     getTwits()
   }, [state])
+
 
   return (
     
@@ -41,20 +42,18 @@ function Index() {
       {
         !state.hasError ? (
           <React.Fragment>
-          <Navbar
+             <Navbar
 
-          />
+             />
 
-          <TwitCardList
-            twits={state.twits}
-          />
+           <TwitCardList
+             twits={state.twits}
+           />
 
-           
-           
-          
-          {/* <StatList
-          twits = {state.twits}
-          />   */}
+           <Footer>
+             
+           </Footer>
+
           </React.Fragment>
          
    

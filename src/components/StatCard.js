@@ -1,6 +1,5 @@
 import React from "react";
 
-// import ResumenCard from '../components/ResumenCard'
 import { Chart } from "react-google-charts";
 
 
@@ -10,8 +9,6 @@ function StatCard (props) {
     emotion
        
   } = props
-
-  const [objeto1, setObjeto] = React.useState([])
 
   const emotionarray1 = []
   const emotionarray2 = []
@@ -34,11 +31,6 @@ function StatCard (props) {
   console.log(emotionarray2[0]);
   console.log(emotionarray3[1]);
 
-
-  
-
-
-  // {console.log(emotion[i].emotion)}
   
     return(
 

@@ -1,6 +1,7 @@
 .navbar {
     background: rgb(46, 66, 94);
     transition: all 1.5s ease;   
+    height: 145px;
   
 }
 

@@ -14,21 +14,19 @@ function Secciones ({to}){
              </div>
 
              <div className="container-fluid p-0">
-            <div className="row backseccion"> 
-            </div>
+                 <div className="row backseccion"> </div>
 
-            <div className="container infoprin">
-                <div className="row">
-                    <div className="col">
-                        <p> EXTRAE   DATOS    DE    TWITER, <br></br></p>
-                        <p> COMIENZA A ANALIZAR CON NATURAL LANGUAGE UNDERSTANDING <br></br></p>
-                        <p> Y <br></br></p>
-                        <p> GRAFICA SU INFORMACION. <br></br></p>
-                    </div>
-                </div>
-            </div>
-
-              </div> 
+                 <div className="container infoprin">
+                     <div className="row">
+                         <div className="col">
+                            <p> EXTRAE   DATOS    DE    TWITER, <br></br></p>
+                            <p> COMIENZA A ANALIZAR CON NATURAL LANGUAGE UNDERSTANDING <br></br></p>
+                            <p> Y <br></br></p>
+                            <p> GRAFICA SU INFORMACION. <br></br></p>
+                         </div>
+                     </div>
+                 </div>
+             </div> 
                 
                 <div className="card col-4 p-0">
                     <img src={secciones02} className="card-img-top" alt="..." />

@@ -1,0 +1,35 @@
+.contcard {
+    background:red !important;
+}
+
+.rowcartiw {
+    background: rebeccapurple;
+    margin: 0px;
+}
+
+.card {
+    height: 210px;
+}
+
+.search-container {
+    background: darkturquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input, .search-btn{
+
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.search-input{
+    padding: 3px 8px;
+    width: calc(30% -2em);
+    margin: 0 8px;
+}
+
+.search-btn{
+    padding: 5px 5px;
+}

@@ -4,13 +4,8 @@ import React, { useState, useEffect} from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ButtonResumen from '../components/ButtonResumen'
-// import StatList from '../components/StatList'
 import ResumenCard from '../components/ResumenCard'
 import StatCard from '../components/StatCard'
-
-// import api2 from '../lib/api2'
-
-
 
 function Resumenes() {
     const [state, setState] = useState({
@@ -20,12 +15,9 @@ function Resumenes() {
 
     })
     
-   
-
     useEffect(() => {
 
       fetch ('https://twiitgov.mybluemix.net/resumenes')
-
 
 
       .then (resp => resp.json())
@@ -36,35 +28,6 @@ function Resumenes() {
           errorMessage: ''
         })
       });
-
-
-      // console.log(state.twits.payload.data.result.keywords)
-      
-
-
-
-
-
-      // const getkeywordsibm = async () => {
-      //   try {
-      //     const twits = await api2.getkeywordsibm()
-      //     console.log(twits);
-          
-  
-      //     if (state.twits.length !== twits.length) {
-      //       setState({ ...state, twits })
-      //     }
-      //   } catch (error) {
-      //     if (!state.hasError) {
-      //       setState({ ...state, hasError: true })
-      //     }
-      //   }
-      // }
-  
-      // getkeywordsibm()
-      // console.log(getkeywordsibm)
-    // }, [state])
-
     }, [] )
   
     return (
@@ -77,28 +40,29 @@ function Resumenes() {
             <Navbar
   
             />
-  
-           
-             
-             {state.twits.map(t => <li>
-                {/* {JSON.stringify(t)} */}
+    
+             {state.twits.map(t => 
+             <li key={t} >
                 <ResumenCard
                   text={t.text}
                   relevance={t.relevance}
                   emotion={JSON.stringify(t.emotion)}
-
                 >
                 </ResumenCard>
              </li>
               )}
             
             <StatCard
-            emotion={state.twits}
+              emotion={state.twits}
             >
             </StatCard>
 
 
-            <Footer></Footer> 
+            <Footer
+
+
+            >
+            </Footer> 
 
             </React.Fragment>
            

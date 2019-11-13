@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom'
 
 import seccionestwitterstats from '../assets/img/twitterstats.png'
 
-function Footer ({to}) {
+function Footer (props) {
+
+    const{
+        to,
+    } = props
 
 
 
@@ -18,7 +22,7 @@ function Footer ({to}) {
                             src={seccionestwitterstats}  
                             to= {to}
                             className='img-foo'
-                            alt='jsd'
+                            alt='...'
                          />
                     </Link>
                 </div>
