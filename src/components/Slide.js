@@ -8,12 +8,13 @@ import seccionesgoogle from '../assets/img/apiGoogle.png'
 
 
 
-
 function Slide ({to}){
+    
     return(
+            
         <React.Fragment>
 
-            <div id="carousel-example-2" className="carousel slide carousel-fade" data-ride="carousel">
+            <div id="carousel-example-2" className="carousel slide carousel-fade" data-ride="carousel" style= {{marginTop: '250px'}}>
                 <ol className="carousel-indicators">
                     <li data-target="#carousel-example-2" data-slide-to="0" className="active"></li>
                     <li data-target="#carousel-example-2" data-slide-to="1"></li>

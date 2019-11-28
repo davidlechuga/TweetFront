@@ -10,7 +10,7 @@ import {
 
 // 19.485017, -99.246623
 
-function  Map  (props ) {
+function  Map  ( ) {
     
     return(
         <GoogleMap
@@ -29,5 +29,5 @@ function  Map  (props ) {
 }
 
 export default withScriptjs(
-    withGoogleMap(Map)
+    withGoogleMap ( Map )
 )

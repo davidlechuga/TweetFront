@@ -7,6 +7,7 @@ import Map from '../components/Map'
 import credentials from '../credentials'
 
 
+
 const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credentials.mapsKey} `;
 
 function informes () {

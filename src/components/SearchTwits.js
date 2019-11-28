@@ -1,53 +1,54 @@
+import React, {
+    // useEffect,
+    useState
+} from "react";
 
-import React, {Component} from "react";
-import api from '../lib/api'
+import twitsService from '../config/services/twitsService';
 
-class SearchTwits  extends Component {
+const SearchTwits = () => {
+    const [search, setSearch] = useState();
+    const [ setDataTwits ] = useState();
+   
+    //funcion anonima se ejecuta asu misma cuando se llama a si misma
+    const onClick =  async () => {
+        try {
+            const responseDataTwits = await twitsService.searchTwitsSimpleWord(search);
+            console.log(responseDataTwits);
+            if (responseDataTwits) {
+                setDataTwits(responseDataTwits);
+                }
+        }
+        catch(error) {
+            console.log(error);
+            
+        }
+        
+    };
 
-     constructor(props) {
-        super(props);
-        this.onClick = this.onClick.bind(this)
-        this.state = {search: '' }
+    const handleChange = (e) => {
+        const { value } = e.target;
+        setSearch(value);
+    };
+       
 
+    return (
+        <div className="search-container">
+            <input 
+                className="search-input"
+                type="text"
+                onChange={handleChange}
+                name="search"
+                value={search}
+            />
+            <button 
+                className="search-btn" 
+                type="submit" 
+                onClick={onClick} 
+            > SEARCH 
+            
+            </button>
+        </div>
+    )
+};
 
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
-      }
-
-      handleChange = (e) => {
-          this.setState({search: e.target.value })
-          
-      }
-
-      handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.value);
-        event.preventDefault();
-      }
-    
-
-      async onClick(){
-        const tweets = await api.getTwits()
-        console.log('tweets: ', tweets)
-        console.log(this.state.search)
-    }
-
-    render (){
-        // const { handleSearch } = this.props
-        // const search = this.state
-        return(
-
-                <div className="search-container">
-                    <input 
-                        className="search-input"
-                        type="text"
-                        onChange= {this.handleChange}
-                        value= {this.state.search}
-                        />
-                    <button className="search-btn" type="submit" onClick={this.onClick} > SEARCH </button>
-                </div>
-        )
-    }
-  
-}
-export default SearchTwits
-
+export default SearchTwits;
