@@ -1,9 +1,11 @@
 import React, {
     // useEffect,
-    useState
+    useState,
+    useReducer
 } from "react";
 
 import twitsService from '../config/services/twitsService';
+
 
 const SearchTwits = () => {
     const [search, setSearch] = useState();
